@@ -1,6 +1,7 @@
 <?php 
   session_start(); 
-  $connect = mysqli_connect("localhost", "root", "", "prolife");
+include("database.php");
+  //$connect = mysqli_connect("localhost", "root", "", "prolife");
   
 	  $username = $_POST["username"];
 	  $password = $_POST["password"];
